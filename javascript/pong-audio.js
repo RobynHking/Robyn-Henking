@@ -57,10 +57,10 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("compt.mp3");
+export var adventureMusic = new soundFile("compt.m");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -1;
+adventureMusic.player.volume.value = -16;
 
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
